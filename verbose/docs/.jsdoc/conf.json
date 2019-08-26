@@ -1,0 +1,36 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recurseDepth": 128,
+
+    "source": {
+        "include": [ 
+            "D:/programming/NodeJS_Programs/SRoMG_API/v2/index.js", 
+            "D:/programming/NodeJS_Programs/SRoMG_API/v2/events/events.js", 
+            "D:/programming/NodeJS_Programs/SRoMG_API/v2/const/FLAGS.js", 
+            "D:/programming/NodeJS_Programs/SRoMG_API/v2/classes/author.js", 
+            "D:/programming/NodeJS_Programs/SRoMG_API/v2/classes/comic.js" 
+        ],
+        "includePattern": ".+\\.js(doc|x)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+
+    "sourceType": "module",
+
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+
+    "opts": {
+        "template": "D:\\Programming\\ink-docstrap\\node_modules\\ink-docstrap\\template",
+        "encoding": "utf8",
+        "destination": "./docs/",
+        "recurse": true,
+        "readme": "README.md"
+    }
+}

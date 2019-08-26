@@ -1,0 +1,1 @@
+const FLAGS=require('./const/FLAGS.js');module.exports={META:require('./events/events.js'),FLAGS:FLAGS,version:"2.0.0",Comic:require('./classes/comic.js'),author:require('./classes/author.js')};
