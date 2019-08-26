@@ -3,8 +3,8 @@ Square Root of Minus Garfield API v2
 An easy way to access information from _SRoMG_. 
 
 **GITHUB NOTES:** 
- + For GitHub download you must extract node_modules as GitHub doesn't let me upload the whole folder. 
  + See verbose for pretty source or sromg-api for minified source.
+ + Docs are uncompiled in verbose to save on size.
 
 
 Documentation
